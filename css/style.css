@@ -1,0 +1,74 @@
+:root {
+  --hover-color: #2196f3;
+  --defaulte-color: #2f303a;
+  --text-color: #757575;
+  --main-color: #fff;
+  --active-color: #757575;
+}
+
+.container{
+    outline: solid red;
+}
+
+.header{
+
+}
+
+.header-logo{
+    color: #000;
+font-family: Raleway;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.78px;
+}
+
+.header-span{
+    color: var(--hover-color);
+}
+
+/* .header-link,
+.header-contact {
+    color: #000;
+    text-decoration: none;
+    transition: color 250ms ease;
+}
+
+.header-link:hover,
+.header-link:focus,
+.header-contact:hover,
+.header-contact:focus {
+    color: var(--hover-color);
+} */
+
+.header-nav a{
+    transition: color 250ms ease;
+    color: #212121;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.28px;
+}
+
+.header-nav a:hover,
+.header-nav a:focus{
+    color: var(--hover-color);
+}
+
+.header-address a{
+    color: ;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.28px;
+}
+
+.header-address a:hover,
+.header-address a:focus{
+    color: var(--hover-color);
+}
