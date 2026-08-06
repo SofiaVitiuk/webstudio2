@@ -11,7 +11,24 @@
 }
 
 .header{
+    display: flex;
+    align-items: center;
+}
 
+.header-list{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.address-list{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 .header-logo{
@@ -42,6 +59,15 @@ letter-spacing: 0.78px;
     color: var(--hover-color);
 } */
 
+.header-nav {
+    margin-left: 76px; /* расстояние от логотипа */
+}
+
+header-address {
+    margin-left: auto; /* отправляет адрес вправо */
+    font-style: normal; /* убирает курсив у <address> */
+}
+
 .header-nav a{
     transition: color 250ms ease;
     color: #212121;
@@ -59,7 +85,7 @@ letter-spacing: 0.28px;
 }
 
 .header-address a{
-    color: ;
+    color: var(--active-color);
 font-family: Roboto;
 font-size: 14px;
 font-style: normal;
