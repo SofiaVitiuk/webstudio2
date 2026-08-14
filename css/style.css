@@ -6,6 +6,10 @@
   --active-color: #757575;
 }
 
+body {
+  font-family: Roboto, sans-serif;
+}
+
 /* .container {
   outline: solid red;
 } */
@@ -48,7 +52,7 @@
   margin-left: 215px;
   margin-right: 93px;
 }
-344
+
 .header-span {
   color: var(--hover-color);
 }
@@ -65,7 +69,6 @@
 .header-nav a {
   transition: color 250ms ease;
   color: #212121;
-  font-family: Roboto;
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
@@ -80,7 +83,6 @@
 
 .header-address a {
   color: var(--active-color);
-  font-family: Roboto;
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
@@ -102,7 +104,6 @@
   flex-shrink: 0;
   color: #fff;
   text-align: center;
-  font-family: Roboto;
   font-size: 44px;
   font-style: normal;
   font-weight: 900;
@@ -126,7 +127,6 @@
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   color: #fff;
   text-align: center;
-  font-family: Roboto;
   font-size: 16px;
   font-weight: 700;
   line-height: 30px;
@@ -148,7 +148,6 @@
 
 .features-title {
   color: #212121;
-  font-family: Roboto;
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
@@ -159,7 +158,6 @@
 
 .features-text {
   color: var(--text-color);
-  font-family: Roboto;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -170,7 +168,6 @@
 .features-name {
   color: #212121;
   text-align: center;
-  font-family: Roboto;
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
@@ -202,7 +199,6 @@
 .team-title {
   color: #212121;
   text-align: center;
-  font-family: Roboto;
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
@@ -273,7 +269,6 @@ margin-right: 93px;
 
 .footer-address {
   color: #fff;
-  font-family: Roboto;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -283,7 +278,6 @@ margin-right: 93px;
 
 .footer-info {
   color: rgba(255, 255, 255, 0.6);
-  font-family: Roboto;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
