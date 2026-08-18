@@ -17,6 +17,8 @@ body {
 .header {
   display: flex;
   align-items: center;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .header .container {
@@ -97,7 +99,13 @@ body {
 
 .hero {
   background-color: var(--defaulte-color);
-  padding-bottom: 200px;
+  /* padding-bottom: 200px; */
+  /* padding: 1600px 600px; */
+width: 1600px;
+height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .hero-title {
@@ -116,7 +124,7 @@ body {
   padding-top: 200px;
   padding-right: 452px;
   padding-left: 452px;
-  margin-bottom: 30px;
+  padding-bottom: 30px;
 }
 
 .hero-button {
@@ -128,11 +136,13 @@ body {
   color: #fff;
   text-align: center;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 700; 
   line-height: 30px;
   letter-spacing: 0.96px;
   display: block;
-  margin: 0 auto 200px;
+/* position: relative;
+  left: 50px;
+  top: 20px; */
 }
 
 .features-list {
