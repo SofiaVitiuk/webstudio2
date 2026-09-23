@@ -166,7 +166,7 @@ body {
 
 /* features */
 .features {
-  padding: 126px 0;
+  padding-bottom: 94px;
 }
 
 .features-name {
@@ -220,7 +220,6 @@ body {
 
 .team-item {
   text-align: center;
-  margin-bottom: 94px;
   border-radius: 0 0 4px 4px;
   background: #fff;
 }
@@ -234,9 +233,7 @@ body {
 }
 
 .team-item h3 {
-  margin: 30px 0 10px;
   margin-bottom: 10px;
-  margin: 0 auto;
   color: #212121;
   text-align: center;
   font-family: Roboto;
@@ -304,6 +301,10 @@ body {
 }
 
 /* PORTFOLIO */
+.portfolio {
+  padding: 34px auto;
+}
+
 .btn {
   border-radius: 4px;
   background-color: var(--button-clor);
@@ -336,8 +337,7 @@ body {
   display: flex;
   justify-content: center;
   gap: 8px;
-  margin-top: 94px;
-  margin-bottom: 50px;
+  padding: 94px 0;
 }
 
 .portfolio-list {
@@ -347,7 +347,6 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
-  margin-bottom: 94px;
 }
 
 .portfolio-item {
@@ -361,7 +360,7 @@ body {
   display: block;
   width: 370px;
   height: 294px;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 .portfolio-name {
