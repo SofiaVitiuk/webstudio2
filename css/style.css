@@ -302,10 +302,10 @@ body {
 
 /* PORTFOLIO */
 .portfolio {
-  padding: 34px auto;
+  padding: 94px 0;
 }
 
-.btn {
+.portfolio-btn {
   border-radius: 4px;
   background-color: var(--button-clor);
   color: var(--title-color);
@@ -320,7 +320,7 @@ body {
   padding-right: 20px;
 }
 
-.btn:hover {
+.portfolio-btn:hover {
   border-radius: 4px;
   color: var(--button-clor);
   background: #2196f3;
@@ -333,11 +333,11 @@ body {
   transition: 250ms;
 }
 
-.box-button {
+.portfolio-gallery {
   display: flex;
   justify-content: center;
   gap: 8px;
-  padding: 94px 0;
+  margin-bottom: 50px;
 }
 
 .portfolio-list {
