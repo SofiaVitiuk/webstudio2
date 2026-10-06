@@ -95,8 +95,13 @@ body {
   color: var(--hover-color);
 }
 
+/* hero */
 .hero {
-  background-color: var(--defaulte-color);
+  background: url(/img/bg-img.png) lightgray 0px -147.517px / 100% 170.667%
+    no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -145,6 +150,27 @@ body {
   gap: 30px;
 }
 
+.article-item {
+  width: calc((100% - 90px) / 4);
+}
+
+.article-thumb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 270px;
+  height: 120px;
+  background-color: var(--button-clor);
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+
+.article-img {
+  display: block;
+  max-width: 70px;
+  height: auto;
+}
+
 .article-title {
   color: #212121;
   font-size: 14px;
@@ -153,6 +179,7 @@ body {
   line-height: normal;
   letter-spacing: 0.42px;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 
 .article-text {
@@ -222,6 +249,10 @@ body {
   text-align: center;
   border-radius: 0 0 4px 4px;
   background: #fff;
+  box-shadow:
+    0 1px 3px 0 rgba(0, 0, 0, 0.12),
+    0 1px 1px 0 rgba(0, 0, 0, 0.14),
+    0 2px 1px 0 rgba(0, 0, 0, 0.2);
 }
 
 .team-item img {
@@ -253,6 +284,38 @@ body {
   font-weight: 400;
   line-height: normal;
   letter-spacing: 0.48px;
+}
+
+/* clients */
+.clients {
+  padding: 94px 0;
+}
+
+.clients-title {
+  color: #212121;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.08px;
+  margin-bottom: 50px;
+}
+
+.clients-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.clients-li {
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+  width: 170.0px;
+height: 92.0px;
+
 }
 
 /* footer */
@@ -352,6 +415,13 @@ body {
 .portfolio-item {
   background: #fff;
   border: 1px solid #eee;
+}
+
+.portfolio-item:hover {
+  box-shadow:
+    0 1px 1px 0 rgba(0, 0, 0, 0.12),
+    0 4px 4px 0 rgba(0, 0, 0, 0.06),
+    1px 4px 6px 0 rgba(0, 0, 0, 0.16);
 }
 
 .portfolio-item img {
